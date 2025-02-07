@@ -1,0 +1,51 @@
+.emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Emilys Candy", serif;
+    text-align: center;
+    color:rgb(139,0,0);
+    background-color: rgb(236, 183, 213);
+
+}
+
+.gif_container img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.home_container, .valentine_container {
+    margin-top: 20px;
+}
+
+.cat_button {
+    font-family: "Emilys Candy", serif;
+    font-size: 16px; /* Dimensione del testo */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home_button, .cartolina_button, .cat_button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px; /* Dimensione del testo */
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.home_button:hover, .cartolina_button:hover, .cat_button:hover {
+    background-color: darkred;
+}
